@@ -1,9 +1,7 @@
 var isDate = function (input) {        
   //   write your code here
 
-	input=parseInt(input);
-
-	if (typeof input === "object" && input !== null) 
+	if (typeof input === "object") 
 	{
 		return true;
     } 
