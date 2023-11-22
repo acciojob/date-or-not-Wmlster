@@ -1,9 +1,9 @@
-var isDate = function (input) {    
+var isDate = function (input) {      
   //   write your code here
 
 	let n=input.length;
 
-	if(input=="new Date()")
+	if(input==new Date())
 		return true;
 
 	if(n>10)
