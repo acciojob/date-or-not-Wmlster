@@ -1,14 +1,10 @@
-var isDate = function (input) {      
+var isDate = function (input) {       
   //   write your code here
 
 	if (typeof input === "object" && input !== null) 
 	{
 		return true;
     } 
-	else 
-	{
-		return false;
-    }
 
 	let n=input.length;
 
@@ -70,5 +66,6 @@ var isDate = function (input) {
 };
 
 // Do not change the code below.
-c/onst input = new Date();
+const input = prompt("Enter Date.");
 alert(isDate(input));
+
